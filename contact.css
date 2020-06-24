@@ -1,0 +1,43 @@
+/* contact-content-start*/
+.contact-us-head > h1, .projects-main > h4{
+    font-family: 'Rammetto One';
+    text-align: center;
+    font-size: 3rem;
+    color: #e3aa09;
+    margin: 30px 0 0 0;
+}
+.contact-us-content p:nth-of-type(1), .contact-us-content p:nth-of-type(3){
+    border-left: 2px solid #e3aa09;
+    padding-right: 2px;
+}
+.contact-us-content p{
+    text-align: center;
+    line-height: 1.9rem;
+    color: #333333;
+}
+/* contact-content-end*/
+/* contact form start */
+
+#contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-row {
+    margin-bottom: 15px;
+}
+.form-row #name,.form-row #email,.form-row #note ,.form-row #address {
+    border: 1px solid #ccc;
+    padding: 6px 15px;
+    width: 100%;
+}
+.submit-button {
+    width: 100%;
+    padding: 7px;
+    font-size: 17px;
+    background: #e3aa09;
+    border: 2px solid #a57c0b;
+    color: #fff;
+}
+/* contact form end */
+

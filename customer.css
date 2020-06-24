@@ -1,0 +1,25 @@
+#customers {
+    width: 100%;
+    margin: 50px 0;
+    border-collapse: collapse;
+    background: #fff;
+}
+table thead th {
+    text-align: left;
+    background: #333;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 8px;
+}
+table tbody td {
+    padding: 8px;
+    border: 1px solid #cecece;
+}
+#total {
+    padding: 8px;
+    text-align: right;
+    font-weight: bold;
+    border: 1px solid #cecece;
+    background: #efefef;
+}

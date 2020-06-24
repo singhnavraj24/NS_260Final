@@ -1,0 +1,88 @@
+/* login-content-start*/
+.login-us-head > h1, .projects-main > h4{
+    font-family: 'Rammetto One';
+    text-align: center;
+    font-size: 3rem;
+    color: #e3aa09;
+    margin: 30px 0 0 0;
+}
+
+/* login form start */
+.login-us-row {
+    margin: 60px 0;
+}
+#login-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-row {
+    margin-bottom: 15px;
+}
+.form-row #password,.form-row #email {
+    border: 1px solid #ccc;
+    padding: 6px 15px;
+    width: 100%;
+}
+.submit-button {
+    width: 100%;
+    padding: 7px;
+    font-size: 17px;
+    background: #e3aa09;
+    border: 2px solid #a57c0b;
+    color: #fff;
+}
+.submit-button.disabled {
+    opacity: 0.7;
+}
+
+#email.error ,#password.error {
+    border-color: #f00;
+}
+#email.success ,#password.success {
+    border-color: #41ad2d;
+}
+.login-success {
+    background: #5cbf43;
+    padding: 8px 17px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+    display: none;
+}
+.login-success.show {
+    display: block;
+}
+/* login form end */
+
+/*  Offers */
+.our-offers h3{
+    color: #e3aa09;
+    font-family: courgette;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#discount {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+.our-offers {
+    margin: 10px auto;
+    padding: 20px 0;
+}
+button.bg-remove ,.disclaimer button{
+    background: #fff;
+    border: 0;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 40px;
+}
+.disclaimer button {
+    background: #000;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}

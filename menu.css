@@ -1,0 +1,59 @@
+/* Menu Section */
+.menu-main-head h1{
+    text-align: center;
+    font-family: 'Rammetto One';
+    font-size: 1rem;
+    color: #e3aa09;
+}
+.menu-item {
+    margin: 25px 0;
+    font-size: 18px;
+    color: #000000;
+    padding: 9px;
+    border-radius: 10px
+}
+.menu-item.active {
+    background: #efefef;
+}
+.menu-item-name{
+    font-weight: bold;
+}
+.menu-item-description {
+    font-weight: normal;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+.menu-item-price{
+    float: right;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: -30px;
+}
+
+/* image-grid-start*/
+.image-grid-row{
+    margin: 30px 0;
+}
+.image-grid-column-outer{
+    padding: 10px;
+    float: left;
+    width: 33%;
+}
+/* image-grid-end*/
+
+/* Flip panel start */
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #966e00;
+    border: solid 1px #966e00;
+    color: #fff;
+}
+
+#panel {
+    color: #000;
+    padding: 50px;
+    display: none;
+    background: #efefef;
+}
+/* Flip panel end */

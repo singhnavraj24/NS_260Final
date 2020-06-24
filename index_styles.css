@@ -1,0 +1,215 @@
+/*Our story Section Starts*/
+#our-story {
+    margin: 60px 0;
+}
+.our-story-content{
+    padding: 30px 0;
+}
+.our-story-content:nth-of-type(2){
+    color: #333333;
+    line-height: 25px;
+}
+.our-story-content p::first-letter{
+    font-size: 30px;
+}
+.our-story-content > a{
+    color: #000;
+    text-decoration: none;
+}
+.our-story-content a:hover{
+    color:#e3aa09;
+}
+.story-image img{
+    padding-right: 15px;
+}
+.content-more {
+    margin-bottom: 15px;
+}
+#learn-more {
+    padding: 7px 20px;
+    background: #4c4b49;
+    color: #fff;
+    display: inline-block;
+}
+/*Our story Section Starts*/
+
+/*Testimonial-Start*/
+#testimonial{
+    background-image: url("../images/testimonial.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.testimonial-main-row{
+    padding: 30px 0;
+}
+.testimonial-main-column p {
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 15px;
+    margin: 0;
+}
+.testimonial-main-column {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.testimonial-designation p {
+    font-size: 11px;
+    font-style: initial;
+}
+/*Testimonial-Ends*/
+/*dishes-start*/
+.btn-line {
+    text-align: center;
+    clear: both;
+    margin-bottom: 30px;
+}
+button.show-veg {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+button.show-nonveg {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid #000;
+}
+ul.dish-items {
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 20px;
+}
+.dish-items li {
+    margin: 10px 0;
+    padding-left: 0;
+    display: block;
+}
+.dish-items li:before {
+    content: '';
+    display: inline-block;
+    background: #53bf1c;
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.dish-items li.non_veg_item:before {
+    background: #f00;
+}
+#dish-name {
+    float: left;
+    width: 100%;
+    margin: 100px 0;
+}
+.dish-items li.fade {
+    opacity: 0.53;
+}
+/*dishes-end*/
+
+/* Drinks start */
+.drinks h4 {
+    color: #e3aa09;
+    font-family: courgette;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+#drink_list {
+    margin: 0;
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+#drink_list li {
+    margin-bottom: 10px;
+}
+#add_drinks {
+    padding: 7px 20px;
+    background: #4c4b49;
+    color: #fff;
+    display: inline-block;
+    border: 0;
+}
+#drink_list li span {
+    background: #e3aa09;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+.drinks h4 small {
+    color: #000;
+    font-weight: normal;
+    font-size: 14px;
+}
+/*  Page scroll */
+#pagescroll {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #e3aa09;
+    padding: 10px;
+    color: #fff;
+    visibility: hidden;
+}
+
+/*  Offers */
+.our-offers h3{
+    color: #e3aa09;
+    font-family: courgette;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#discount {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+.our-offers {
+    margin: 10px auto;
+    padding: 20px 0;
+}
+.drinks ,.extra_items {
+    float: left;
+    width: 50%;
+}
+.extra_items h4 {
+    color: #e3aa09;
+    font-family: courgette;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Fields */
+.add_item {
+    padding: 7px 20px;
+    background: #4c4b49;
+    color: #fff;
+    display: inline-block;
+    border: 0;
+}
+.input {
+    margin-bottom: 15px;
+}
+.input button {
+    background: #f00;
+    border: 0;
+    color: #fff;
+    border: 2px solid #f00;
+}
+button#add_item {
+    padding: 7px 20px;
+    background: #4c4b49;
+    color: #fff;
+    display: inline-block;
+    border: 0;
+}
